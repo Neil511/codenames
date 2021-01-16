@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   console.log("Hello");
-  console.log(process.env.DATABASE_URL);
+  console.log(process.env);
   return (
     <div className="App">
       <header className="App-header">
