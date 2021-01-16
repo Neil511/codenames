@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-require('dotenv').config();
 
 function App() {
   console.log("Hello");
   console.log(process);
+  console.log(process.env);
   console.log(process.env.DATABASE_URL);
   console.log(process.env.NODE_ENV);
   console.log(process.env.TEST);
