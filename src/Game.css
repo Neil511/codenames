@@ -1,0 +1,9 @@
+.root{
+  flex-grow: 1;
+}
+
+.paper {
+  padding: 8px;
+  text-align: 'center';
+  color: theme.palette.text.secondary;
+}
