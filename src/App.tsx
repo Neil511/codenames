@@ -1,14 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import db from './models'
+
+// async function connectDB() {
+//   console.log("connect db");
+//    try {
+//     await sequelize.authenticate();
+//     console.log('Connection has been established successfully.');
+//   } catch (error) {
+//     console.error('Unable to connect to the database:', error);
+//   }
+// }
 
 function App() {
-  console.log("Hello");
-  console.log(process);
-  console.log(process.env);
-  console.log(process.env.DATABASE_URL);
-  console.log(process.env.NODE_ENV);
-  console.log(process.env.TEST);
+  console.log(db);
   return (
     <div className="App">
       <header className="App-header">
